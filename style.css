@@ -6,13 +6,18 @@ body {
 }
 
 .profile {
-	width: 700px;
+	width: fit-content;
 	height: 500px;
-	position: relative;
-	text-align: auto;
+	/* position: relative; */
+	/* text-align: auto; */
 	margin: 100px auto;
 	background: #e1e1e2;
 	border-radius: 7px;
+}
+
+.btn{
+	width: 100%;
+	text-decoration: none;
 }
 
 .social {
@@ -37,14 +42,14 @@ body {
 }
 
 .button {
-	text-decoration: none;
-	margin: 0 10px;
+	margin: 0 60px;
 	padding: 12px 50px;
 	font-size: 20px;
 	font-weight: bold;
-	color: #fff; 
-	background: linear-gradient(50deg, #8923c9, #f563bb);
+	color: #e1e1e2;
+	background: rgb(90, 86, 159);
 	border-radius: 25px;
+	text-align: center;
 }
 
 .button:hover {
@@ -53,12 +58,17 @@ body {
 }
 
 .icon {
-	margin: 40px 50px;
+	margin: 30px 0;
+	display: flex;
+	flex-direction: row;
+	justify-items: center;
+	/* align-items: center; */
+	justify-content: center;
 }
 
 .icon li {
 	list-style: none;
-	float: left;
+	/* float: left; */
 	width: 80px;
 	height: 80px;
 	line-height: 80px;
@@ -67,7 +77,8 @@ body {
 }
 
 #Bad {
-	float: left;
+	/* float: left; */
+	display: block;
 	width: 80px;
 	height: 80px;
 	line-height: 80px;
@@ -78,7 +89,8 @@ body {
 }
 
 #Okay {
-	float: left;
+	/* float: left; */
+	display: block;
 	width: 80px;
 	height: 80px;
 	line-height: 80px;
@@ -90,7 +102,8 @@ body {
 
 
 #Fine {
-	float: left;
+	/* float: left; */
+	display: block;
 	width: 80px;
 	height: 80px;
 	line-height: 80px;
@@ -100,9 +113,16 @@ body {
 	cursor: pointer;
 }
 
+#msg {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: 20px 0;
+}
 
 #Good {
-	float: left;
+	/* float: left; */
+	display: block;
 	width: 80px;
 	height: 80px;
 	line-height: 80px;
@@ -114,7 +134,8 @@ body {
 
 
 #Great {
-	float: left;
+	/* float: left; */
+	display: block;
 	width: 80px;
 	height: 80px;
 	line-height: 80px;
@@ -132,7 +153,7 @@ body {
 }
 .icon li:hover,
 .icon li a:hover {
-	color: rgb(72, 255, 148);
+	color: rgb(0, 0, 0);
 }
 
 
@@ -161,8 +182,6 @@ body {
 		font-size: 16px;
 	}
 }
-
-
 
 
 

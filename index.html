@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Mood tracker</title>
-		<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all" />
+		<!-- <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all" /> -->
 		<link rel="stylesheet" type="text/css" href="style.css" media="all" />
 		
 	</head>
@@ -15,16 +15,17 @@
 				<h2>Mood Tracker</h2>
 				<p class="first">How's your mood Today?</p>
 				<div class="icon">
-					<li><a href=""><i id="Bad">Bad</i></a></li>
-					<li><a href=""><i id="Okay">Okay</i></a></li>
-					<li><a href=""><i id="Fine">Fine</i></a></li>
-					<li><a href=""><i id="Good">Good</i></a></li>
-					<li><a href=""><i id="Great">Great</i></a></li>
+					<li onclick='myMsg("No worries, we got you")'><a href=""><i id="Bad">Bad</i></a></li>
+					<li onclick='myMsg("Every day is a new opportunity")'><a href=""><i id="Okay">Okay</i></a></li>
+					<li onclick='myMsg("Better days are coming!")'><a href=""><i id="Fine">Fine</i></a></li>
+					<li onclick='myMsg("Don&#39t count the days, make the days count.")'><a href=""><i id="Good">Good</i></a></li>
+					<li onclick='myMsg("Today is the perfect day to be happy!")'><a href=""><i id="Great">Great</i></a></li>
 				</div>
 		    </div>
+			<p id="msg"></p>
 
-			<div>
-				<a class="button" href="">Spin Again!</a>
+			<div class="button">
+				<a class="btn" href="">Spin Again!</a>
 			</div>
 		</div>
 		
@@ -49,6 +50,12 @@
 				]
 			});
 			$(".profile").velocity("callout.twirl");
+
+			function myMsg(params) {
+				// document.getElementById("msg").innerHTML = params;
+				alert(params);
+				// return false;
+			}
 			
 		</script>
 		
