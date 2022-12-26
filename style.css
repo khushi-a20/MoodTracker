@@ -1,0 +1,169 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "helvetica Neue", Helvetica;
+	background-color: #000;
+}
+
+.profile {
+	width: 700px;
+	height: 500px;
+	position: relative;
+	text-align: auto;
+	margin: 100px auto;
+	background: #e1e1e2;
+	border-radius: 7px;
+}
+
+.social {
+	width: 700px;
+	top: 5%;
+	padding: 35px 20px;
+	text-align: center;
+}
+
+.social h2 {
+	font-size: 50px;
+	color: rgb(90, 86, 159);
+	text-align: center;
+}
+
+.social .first {
+	font-size: 20px;
+	color: #333438;
+	margin: -10px 0 0 0;
+	text-align: center;
+	line-height: 10px;
+}
+
+.button {
+	text-decoration: none;
+	margin: 0 10px;
+	padding: 12px 50px;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff; 
+	background: linear-gradient(50deg, #8923c9, #f563bb);
+	border-radius: 25px;
+}
+
+.button:hover {
+	color: #000;
+	background: linear-gradient(50deg, #638EF5, #494BF9);
+}
+
+.icon {
+	margin: 40px 50px;
+}
+
+.icon li {
+	list-style: none;
+	float: left;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0 8px;
+	cursor: pointer;
+}
+
+#Bad {
+	float: left;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0 8px;
+	background: linear-gradient(-50deg, #df4646, #712929);
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+#Okay {
+	float: left;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0 8px;
+	background: linear-gradient(-50deg, #eb990a, #b95000);
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+
+#Fine {
+	float: left;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0 8px;
+	background: linear-gradient(-50deg, #ede033, #edab12);
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+
+#Good {
+	float: left;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0 8px;
+	background: linear-gradient(-50deg, #24d1b5, #13944b);
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+
+#Great {
+	float: left;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0 8px;
+	background: linear-gradient(-50deg, #34aecd, #2f0daa);
+	border-radius: 50%;
+	cursor: pointer;
+}
+
+.icon a {
+	text-decoration: none;
+	margin: 0px;
+	color: #fff;
+	font-size: 20px;
+}
+.icon li:hover,
+.icon li a:hover {
+	color: rgb(72, 255, 148);
+}
+
+
+
+
+
+/* Now responsive code is here */
+
+
+@media only screen and (max-width: 400px) {
+	.profile {
+		width: 290px;
+	}
+	.social {
+		width: 280px;
+	}
+	.icon {
+		margin: 48px 25px;
+	}
+	.icon li {
+		width: 30px;
+		height: 30px;
+		line-height: 30px;
+	}
+	.icon li a i {
+		font-size: 16px;
+	}
+}
+
+
+
+
+
+
